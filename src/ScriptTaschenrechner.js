@@ -1,7 +1,6 @@
 
 function berechnen(){
 	
-	var tobiistdoof = 0;
 	
 	var rechenart = document.getElementById("rechenart").value;
 	var part1 = Number(document.getElementById("Display1").value);
