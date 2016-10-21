@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Taschenrechner</title>
+<script type="text/javascript" src=ScriptTaschenrechner.js >
+
+</script>
+</head>
+
+<body>
+
+<h1>Taschenrechner</h1>
+
+<form name=Rechner>
+<input id="Display1" value=""> 
+<select id="rechenart">
+	<option value="+">+</option>
+	<option value="-">-</option>
+	<option value="*">*</option>
+	<option value="/">/</option>
+</select>
+<input id="Display2" value="">
+
+<br>
+
+<input type="reset" value="C" onclick="ergebnisZuruecksetzen()" >
+
+<input type="button" value="=" onclick="berechnen()">
+
+<ul id="ergebnis">
+
+</ul>
+
+</form>
+</body>
+</html>
